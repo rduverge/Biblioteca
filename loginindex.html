@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Leerport" content="width=device-width, initial-scale=1.0">
+    <Meta name="author" content="Rolando Duvergé">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/site.webmanifest">
+        <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css">
+
+        
+
+        <link rel="stylesheet" href="css/indexgelogin.css">
+        <link rel="stylesheet" href="css/loginindex.css">
+
+    <title>Registro documentos</title>
+</head>
+<body>
+    
+
+    <header class="header1">
+        <div class="container2">
+            <div class="rows align-items-center justify-content-between">
+               <div class="logos">
+                <a href="loginindex.html" name="seccion2"><img src="img/logov2.png"></a>
+               </div>
+               <input type="checkbox" id="nav-check">
+               <label for="nav-check" class="nav-toggler">
+                  <span></span>
+               </label>
+               <nav class="nav">
+                  <ul>
+                     <li><a href="loginindex.html" class="active1">Inicio</a></li>
+                     <li><a href="Listdocument.html" style="color: #22a6b3;">Lista</a></li>
+                     <li><a href="RegisDocuments.html" style="color: #3498db">Registrar documentos</a></li>
+                     <li><a href="login.html" class="text-danger">Cerrar sesión</a></li>
+                     <li><i class='bx bx-user'></i></li>
+                  </ul>
+               </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section  class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light"> <span class="op1">Documentos por categoría</span></h1>
+              <p class="lead text-muted"><span class="op1">
+                Descubre todos los libros que tenemos. Las clasificaciones las hemos hecho según nuestro criterio y queremos creer que se ajustan al máximo a las características de cada libro</span></p>
+
+            </div>
+          </div>
+        </section>
+      
+        <div class="album py-5 bg-light">
+          <div class="container">
+            <h1 class="poke">Libros de acción</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/acc1.jpg" alt="accion">
+                  <div class="card-body">
+                    <p class="card-text"> <span class="opa">ACC-01 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='viewdocuments.html'">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='editdocuments.html'">Editar</button> 
+                      </div>
+                      <small class="text-muted">39 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/acc7.jpg" alt="accion">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ACC-02 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">27 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/acc2.jpg" alt="accion">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ACC-03 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">45 mins</small>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/acc3.jpg" alt="accion">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ACC-04 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">27 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/acc8.jpg" alt="accion">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ACC-05 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">56 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/acc4.jpg" alt="accion">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ACC-06 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">46 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/acc9.jpg" alt="accion">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ACC-07 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">59 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/acc5.jpg" alt="accion">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ACC-08 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">19 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/acc6.jpg" alt="accion">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ACC-09 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">39 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        
+        <div class="album py-5 bg-light">
+          <div class="container">
+            <h1 class="poke">Novelas literarias</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/book1.jpeg" alt="novela">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">NOV-01 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">29 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/book2.jpeg" alt="novela">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">NOV-02 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">19 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/book3.jpg" alt="novela">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">NOV-03 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">12 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/book4.jpg" alt="novela">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">NOV-04 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">32 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/book9.jpg" alt="novela">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">NOV-05 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">21 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/book5.jpg" alt="novela">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">NOV-06 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">25 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/book6.jpeg" alt="novela">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">NOV-07 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">46 mins</small>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/book7.jpg" alt="novela">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">NOV-08 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">34 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/book8.jpg" alt="novela">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">NOV-09 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group"> 
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">47 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="album py-5 bg-light">
+          <div class="container">
+            <h1 class="poke">Ensayos</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/ensayo9.jpg" alt="ensayo">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ENS-01 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">48 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/ensayo2.jpg" alt="ensayo">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ENS-02 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">47 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/ensayo3.jpg" alt="ensayo">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ENS-03 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">37 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/ensayo4.jpg" alt="ensayo">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ENS-04 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">22 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/ensayo5.jpg" alt="ensayo">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ENS-05 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">11 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/ensayo6.jpg" alt="ensayo">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ENS-06 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">16 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/ensayo7.jpg" alt="ensayo">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ENS-07 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">18 mins</small>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/ensayo8.jpg" alt="ensayo">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ENS-08 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">7 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/ensayo1.jpg" alt="ensayo">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">ENS-09 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group"> 
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">29 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="album py-5 bg-light">
+          <div class="container">
+            <h1 class="poke">Estadística</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/est1.jpg" alt="Estadística">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">EST-01 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">24 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/est2.jpg" alt="Estadística">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">EST-02 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">18 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/est3.jpg" alt="Estadística">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">EST-03 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">11 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/est4.jpg" alt="Estadística">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">EST-04 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">32 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/est5.jpg" alt="Estadística">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">EST-05 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">52 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/est6.jpg" alt="Estadística">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">EST-06 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">51 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/est7.jpg" alt="Estadística">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">EST-07 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">33 mins</small>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/est8.jpg" alt="Estadística">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">EST-08 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">32 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <img class="img32" src="books/est9.jpg" alt="Estadística">
+                  <div class="card-body">
+                    <p class="card-text"><span class="opa">EST-09 </span>Lorem ipsum dolor sit amet consectetur adipiscing elit curabitur, pretium aliquam inceptos ullamcorper morbi lacus..</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group"> 
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Leer</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                      </div>
+                      <small class="text-muted">44 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#seccion2"  class="seccion2 right1">Volver arriba</a>
+<br><br><br>
+      </main>
+
+</body>
+</html>

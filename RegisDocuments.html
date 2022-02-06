@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Leerport" content="width=device-width, initial-scale=1.0">
+    <Meta name="author" content="Rolando Duvergé">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/site.webmanifest">
+        <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css">
+
+        
+
+        <link rel="stylesheet" href="css/indexgelogin.css">
+        <link rel="stylesheet" href="css/loginindex.css">
+        <link rel="stylesheet" href="css/regis.css">
+
+    <title>Registro documentos</title>
+</head>
+<body class="fondo">
+    
+
+    <header class="header1">
+        <div class="container2">
+            <div class="rows align-items-center justify-content-between">
+               <div class="logos">
+                <a href="loginindex.html" name="seccion2"><img src="img/logov2.png"></a>
+               </div>
+               <input type="checkbox" id="nav-check">
+               <label for="nav-check" class="nav-toggler">
+                  <span></span>
+               </label>
+               <nav class="nav">
+                  <ul>
+                     <li><a href="loginindex.html" class="active1">Inicio</a></li>
+                     <li><a href="Listdocument.html" style="color: #22a6b3;">Lista</a></li>
+                     <li><a href="RegisDocuments.html" style="color: #3498db">Registrar documentos</a></li>
+                     <li><a href="login.html" class="text-danger">Cerrar sesión</a></li>
+                     <li><i class='bx bx-user'></i></li>
+                  </ul>
+               </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="form-register">
+        <h4>Registro de documentos</h4>
+        <input class="controls" type="text" name="nombredoc" id="titdoc" placeholder="Título documento">
+        <input class="controls" type="url" name="url" id="url" placeholder="Ingrese el url">
+        <select   class="controls1" id="numreg" name="numreg" style="max-width: 80px">
+            <option value="">ACC-</option>
+            <option value="">NOV-</option>
+            <option value="">ENS-</option>
+            <option value="">EST-</option>
+            <input class="controls2" type="text" name="numeroregistro" id="numreg" placeholder="Ingrese el número de registro">
+        </select>
+
+        <select id="cat" name="categoría" class="controls3">
+            <option value="">Seleccione la Categoria</option> 
+            <option value="">Libro de acción</option>
+            <option value="">Novelas literarias</option>
+            <option value="">Ensayos</option>
+            <option value="">Estadística</option>
+        </select>
+        <span class="tet1"> <textarea class="controls" name="textarea" rows="2" cols="5">Ingrese una breve descripción del documento</textarea></span>
+            <input class="controls" type="file" name="archivosubido">
+            <button class="controls23" onclick="location.href='registereddocument.html'">Registrar Documento</button> 
+
+        
+      </section>
+
+
+</body>
+</html>
+

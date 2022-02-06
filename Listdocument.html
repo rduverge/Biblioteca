@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Leerport" content="width=device-width, initial-scale=1.0">
+    <Meta name="author" content="Rolando Duvergé">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/site.webmanifest">
+        <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css">
+
+                
+        <link rel="stylesheet" href="css/search.css">
+        <link rel="stylesheet" href="css/tabla.css">
+        <link rel="stylesheet" href="css/indexgelogin.css">
+        <link rel="stylesheet" href="css/loginindex.css">
+        <link rel="stylesheet" href="css/regis.css">
+
+    <title>Registro documentos</title>
+</head>
+<body class="fondo4">
+    
+
+    <header class="header1">
+        <div class="container2">
+            <div class="rows align-items-center justify-content-between">
+               <div class="logos">
+                <a href="loginindex.html" name="seccion2"><img src="img/logov2.png"></a>
+               </div>
+               <input type="checkbox" id="nav-check">
+               <label for="nav-check" class="nav-toggler">
+                  <span></span>
+               </label>
+               <nav class="nav">
+                  <ul>
+                     <li><a href="loginindex.html" class="active1">Inicio</a></li>
+                     <li><a href="Listdocument.html" style="color: #22a6b3;">Lista</a></li>
+                     <li><a href="RegisDocuments.html" style="color: #3498db">Registrar documentos</a></li>
+                     <li><a href="login.html" class="text-danger">Cerrar sesión</a></li>
+                     <li><i class='bx bx-user'></i></li>
+                  </ul>
+               </nav>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="t24">Lista de documentos</h1>
+	
+	<div class="field" id="searchform">
+		<input type="text" id="searchterm" placeholder="Digite el nombre del libro"/>
+		<button type="button" id="search">Buscar!</button>
+	  </div>
+	  
+    <div id="main-container">
+
+		<table>
+			<thead>
+				<tr>
+					<th>Título</th><th>Autor</th><th>Número de registro</th><th>Leer/editar</th>
+				</tr>
+			</thead>
+
+			<tr>
+				<td>Odisea</td><td>Javier Negrete</td><td>ACC-01</td><td>                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='viewdocuments.html'">Leer</button>
+					<button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='editdocuments.html'">Editar</button> </td>
+			</tr>
+			<tr>
+				<td>Bajo la misma estrella</td><td>John Green</td><td>ACC-02</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+			<tr>
+				<td>El espia ingles</td><td>Daniel Silva</td><td>ACC-03</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+			<tr>
+				<td>1621 Thanksgiving</td><td>Catherine O'Neill Grace</td><td>ACC-04</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+            <tr>
+				<td>La lección de August</td><td>Raquel Palacio</td><td>ACC-05</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+			<tr>
+				<td>La isla misteriosa</td><td>Julio Verne</td><td>ACC-06</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+			<tr>
+				<td>Comando en acción</td><td>Isidoro Ruiz</td><td>ACC-07</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+			<tr>
+				<td>Leyendas de Zalsaria</td><td>Ángel Valdés</td><td>ACC-08</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+            <tr>
+				<td>El poder de la áccion</td><td>Paulo Vieira</td><td>ACC-09</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+			<tr>
+				<td>Bajo la misma estrella</td><td>John Green</td><td>ACC-02</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+			<tr>
+				<td>El espia ingles</td><td>Daniel Silva</td><td>ACC-03</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+			<tr>
+				<td>1621 Thanksgiving</td><td>Catherine O'Neill Grace</td><td>ACC-04</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+            <tr>
+				<td>Odisea</td><td>Javier Negrete</td><td>ACC-01</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+			<tr>
+				<td>Bajo la misma estrella</td><td>John Green</td><td>ACC-02</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+			<tr>
+				<td>El espia ingles</td><td>Daniel Silva</td><td>ACC-03</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+			<tr>
+				<td>1621 Thanksgiving</td><td>Catherine O'Neill Grace</td><td>ACC-04</td><td><button type="button" class="btn btn-sm btn-outline-secondary">Leer</button><button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></td>
+			</tr>
+		</table>
+	</div>
+
+
+
+</body>
+</html>

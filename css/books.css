@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.lead{
+  text-align: justify;
+  color: black;
+}
+
+.text4{
+  margin-left: 70%;
+}
+
+.text23{
+  color: rgb(58, 51, 51);
+}
+
+.featurette-heading{
+  color: black;
+}
+
+.right1{
+margin-left: 85%;
+}
+
+.text22{
+  color: black;
+}
+
+.images1{
+    margin-left: 350px;
+    border-radius: 5px;
+}
+
+.right1 {
+	background-color: #60a3bc;; 
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+  }
+
+.seccion1{
+    box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family: 'Poppins',sans-serif;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.mb-0{
+    font-weight: normal;
+    text-align: justify;
+}
+
+.xd{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #000000;
+  }
+
+  .carousel {
+    margin-bottom: 4rem;
+  }
+
+
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  
+  .featurette-divider {
+    margin: 5rem 0; 
+  }
+  
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+  
+  @media (min-width: 40em) {
+
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
