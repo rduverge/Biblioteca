@@ -1,6 +1,10 @@
 # Biblioteca
-HTML/CSS 
 
+## Built With ⚙️
+
+HTML
+Basic CSS
+JavaScript and ES6 syntax
 
 
 ![405d86d3c25fcc06e1a0bf4e7621489b](https://user-images.githubusercontent.com/96428327/200183288-a13c8457-b41b-4fce-af08-5fa100076f6c.png)
